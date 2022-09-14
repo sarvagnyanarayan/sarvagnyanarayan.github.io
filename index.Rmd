@@ -1,12 +1,30 @@
 ---
-title: '"Hello, World!"'
-author: "Sarvagnya Narayan"
-date: "2022-09-14"
-output: html_document
+title: ' '
+pagetitle: 'Your Name'
+output: 
+  html_document: 
+    css: "styles.css"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{R echo=F, eval=F}
+#to build this website into the _site directory, run
+rmarkdown::site_generator()
 ```
+ 
+<img src="avatar.jpg" style=width:40% class="img-circle">
 
-## Placeholder for the website 
+<br>
+
+# Welcome! My name is Kishen Narayan. 
+  
+</br>
+
+##### I am a junior studying Mathematics at the University of Texas at Austin.
+
+##### I enjoy programming, sketching, and tea. 
+
+##### Currently, I am writing this description for my SDS 322E class taught by Prof. Arya Farahi.  
+
+##### You can access my projects [here](/portfolio)!
+
+---
