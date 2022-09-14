@@ -1,6 +1,6 @@
 ---
-title: ' '
-pagetitle: 'Your Name'
+title: 'Home'
+pagetitle: 'Home'
 output: 
   html_document: 
     css: "styles.css"
